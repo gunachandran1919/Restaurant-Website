@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Street Chillies | Indian Street Food</title>
+    <meta name="description" content="Bold flavours and street food favourites. See our menu, specials and opening hours.">
+
+    <!-- Free icons (Font Awesome). Needs internet. Icon usage example: <i class="fa-solid fa-phone"></i> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container1 nav-container">
+        <a href="#home" class="logo"><i class="fa-solid fa-pepper-hot"></i> Street Chillies</a>  
+            </div>
+
+            <div class="nav-container2 nav-container">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#menu">Menu</a>
+                <a href="#specials">Specials</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+            
+
+            <div class="nav-container3 nav-container">
+                <button class="menu-btn" id="m-btn">Explore Menu</button>
+            </div>
+            
+            <button class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+    </header>
+    
+    <main>
+        
+    <!-- ========== HERO ========== -->
+        <section class="hero-section" id="home">
+            <img src="img/dishes/hero.png" alt="Dishes Image" class="hero-img"></img>
+           <!-- <img src="img/adjusted/Crispy Sev-Topped Rice Feast.png" alt="Dishes Image" class="hero-img"></img> -->
+           
+            <!-- <div class="hero-overlay"></div> -->
+            <div class="hero-content">
+                <h2>Big Flavours.</h2>
+                <h2>Hub of FOODIES.</h2>
+                <h2><span class="yellow">Street Food Soul.</span></h2> 
+                <p>Bold spices, crispy snacks and comfort food inspired by India's busiest street corners.</p>
+                <span>
+                <button class="menu-btn menu-btn2">Explore Our Menu</button>
+                <button class="contact-btn">Contact Us</button>
+
+                </span>
+            </div>
+        </section>
+        
+    <!-- ========== STORY ========== -->
+
+        <section class="story" id="about">
+            <div class="story-img-container">
+            <img src="img/dishes/chef.jpg" alt="">
+            </div>
+            <div class="story-content">
+                <h3>Our Story</h3>
+                <h4>Street Food, Made with Passion.</h4>
+              <p>Street food has a special way of bringing people together. At Street Chillies, we celebrate bold spices, exciting textures and comforting flavours.</p>
+            <p>From quick evening snacks to a hearty meal with friends, we are all about good food and a relaxed atmosphere.</p>
+
+                <span>
+                    <div>
+                        
+                    <div class="icon"><i class="fa-solid fa-pepper-hot"></i></div>
+                        <div>
+                            
+                        <h5>Bold Flavours</h5>
+                        <p> A celebration of spices, colours and exciting taste combinations.</p>
+
+                        </div>
+                    </div> 
+                    <div>
+                        
+                    <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+                    <div>
+                         <h5>Street Food Favourites</h5>
+                        <p>Familiar favourites inspired by India's vibrant street-food culture.</p>
+                    </div>
+                       
+                    </div>
+                    <div>
+                        
+                    <div class="icon"><i class="fa-solid fa-heart"></i></div>
+                        <div>
+                            <h5>Made to Enjoy</h5><p> Food and a welcoming atmosphere made for sharing good moments.</p>
+                        </div>
+                    </div>
+                </span>
+
+            </div>
+        </section>
+        
+    <!-- ========== MENU ========== -->
+
+        <section class="menu-section" id="menu">
+            
+            <div class="menu-content">
+                <div class="menu-content-divs menu-content-div1">
+                    <h5>What is Cooking ?</h5>
+                    <h3>Your Craving, Our Menu.</h3>
+                     <p>Freshly made every day. Choose a category, then press Add to build your order.</p>
+                </div>
+
+                <div class="filters menu-content-div2">
+                    
+                    <button class="filter-btn" data-filter="all">
+                        All Items
+                    </button>
+
+                    <button class="filter-btn" data-filter="starters">
+                        Starters
+                    </button>
+
+                    <button class="filter-btn" data-filter="street">
+                        Street Food
+                    </button>
+
+                    <button class="filter-btn" data-filter="main">
+                        Main Course
+                    </button>
+
+                    <button class="filter-btn" data-filter="drinks">
+                        Drinks
+                    </button>
+
+                </div>
+
+                <div class="menu-content-divs menu-content-div3">
+
+                    <article class="menu-card" data-category="starters">
+                            <img src="img/dishes/samosa.jpg">
+                        
+                        <span>
+                            <h3>Crispy Veg Samosa</h3>
+                            <p>Golden pastry filled with spiced potatoes and peas, served with chutney.</p>
+                            <p class="price">₹79</p>
+                        </span>
+                        
+                    </article>
+                    <article class="menu-card" data-category="street">
+                        <img src="img/dishes/pav-bhaji.jpg" id="samosa">
+                        <h3>Mumbai Pav Bhaji</h3>
+                        <p>A rich, spiced vegetable mash served with buttery toasted pav.</p>
+                        <p class="price">₹169</p>
+                    </article>
+                    <article class="menu-card" data-category="starters">
+                         <img src="img/dishes/paneer-tikka.jpg">
+                        
+                        <h3>Spicy Paneer Tikka</h3>
+                        <p>Marinated paneer grilled with peppers and aromatic spices.</p>
+                        <p class="price">₹229</p>
+                    </article>
+                    <article class="menu-card" data-category="main">
+                         <img src="img/dishes/biriyani.jpg">
+                        
+                        <h3>Street Style Veg Biryani </h3>
+                        <p>Fragrant rice layered with vegetables, herbs and warming spices.</p>
+                        <p class="price">₹219</p>
+                    </article>
+                    <article class="menu-card" data-category="main">
+                         <img src="img/dishes/noodles.jpg">
+                        
+                        <h3>Chilli Garlic Noodles</h3>
+                        <p>Stir-fried noodles with vegetables, garlic and a spicy kick.</p>
+                    
+                        <p class="price">₹189</p>
+                    </article>
+                    <article class="menu-card" data-category="drinks">
+                         <img src="img/dishes/lassi.jpg" id="lassi">
+                        
+                        <h3>Chilled Mango Lassi</h3>
+                        <p>A creamy mango yoghurt drink. Healthy & Tasty Juice</p>
+                        <p class="price">₹99</p>
+                    </article>
+                     <article class="menu-card" data-category="main">
+                         <img src="img/dishes/thali2.jpg" id="thali">
+                        
+                        <h3>Special Thali</h3>
+                        <p>Traditional North Indian Thali Special with Sweet</p>
+                        <p class="price">₹199</p>
+                    </article>
+                    <article class="menu-card" data-category="drinks">
+                         <img src="img/dishes/lassi3.jpg" id="ice">
+                        
+                        <h3>Ice Cream Lassi</h3>
+                        <p>Tasty Ice Cream Lassi for You. Absolute Heaven experience</p>
+                        <p class="price">₹129</p>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+        <!-- special -->
+        <section id="specials" class="specials" >
+            <h2>Today's Specials</h2>
+            <div class="specials-divs">
+                <!-- EDIT: specials -->
+
+                <article class="special-card">
+                    <img src="img/dishes/thali3.jpg">
+                    
+                    <h3>Weekend Thali</h3>
+                    <p>A full plate of our best sellers, Saturday and Sunday.</p>
+                    <p class="price">₹299</p>
+                </article>
+
+                <article class="special-card">
+                    <img src="img/dishes/thali2.jpg">
+                    <h3>Combo for Two</h3>
+                    <p>Two starters, one main and two drinks.</p>
+                    <p class="price">₹549</p>
+                </article>
+
+            </div>
+    </section>
+    
+    <section id="hours" class="timing">
+        <!-- EDIT: restaurant interior / friends eating photo (name it timing.jpg) -->
+        <img src="img/dishes/timing.jpg" alt="Friends enjoying a meal" class="timing-img">
+
+        <div class="timing-content">
+            <p id="small-title">Visit Us</p>
+            <h2>Good Food, Good Times</h2>
+            <p>Drop in for a quick snack or stay for a long dinner with friends and family. We would love to see you.</p>
+
+            <h3><i class="fa-regular fa-clock"></i> Opening Hours</h3>
+            <!-- EDIT: timings -->
+            <div class="hours-row"><span>Monday - Friday</span><span id="timing1"> 11 AM - 10 PM</span></div>
+            <div class="hours-row"><span>Saturday</span><span id="timing2"> 11 AM - 11 PM</span></div>
+            <div class="hours-row"><span>Sunday</span><span id="timing3"> 12 PM - 10 PM</span></div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+             <h3>Let's Talk</h3>
+             <p>Questions, bookings or feedback? Send us a message.</p> 
+        <form id="contact-form">
+           
+             <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required> 
+              
+             <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required> 
+
+             <label for="message">Your Message</label>
+              <textarea name="message" id="message" placeholder="How May I Help You" rows="5" required></textarea>
+           
+              <button type="submit" class="btn">Send Message</button>
+                <p id="form-message"></p>
+            </form>
+        
+    </section>    
+</main>
+
+<footer>
+        <section class="footer-top">
+            <a href="#home" class="logo"><i class="fa-solid fa-pepper-hot"></i> Street Chillies</a>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#specials">Specials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="extra">
+                <a href="https://github.com/gunachandran1919" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <!-- <a href="mailto:gunachandran360@gmail.com">Email</a> -->
+            </div>
+        </section>
+        <p class="copyright">© 2026 Street Chillies. All rights reserved.</p>
+</footer>
+    <!-- Back to top button -->
+    <a href="#home" class="to-top" id="to-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+    
+</body>
+</html>

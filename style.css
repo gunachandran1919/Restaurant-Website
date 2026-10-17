@@ -881,9 +881,7 @@ footer {
     .nav-container3 {
         display: none;              /* hide the navbar Explore Menu button */
     }
-    .hamburger{
-        /* margin: 0 -90% 0 0; */
-    }
+    
     nav {
         padding: 0 20px;
     }

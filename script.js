@@ -26,17 +26,10 @@ filterbtns.forEach(function(button) {
             });
         });
 
-//form
 
-const form = document.getElementById("contact-form");
-const formMessage = document.getElementById("form-message");
 
-form.addEventListener("submit", function (event) {
-    event.preventDefault();   // stops the page from reloading
-    formMessage.textContent = "Thank you! We will get back to you soon.";
-    form.reset();             // clears the fields
-});
 
+        
 //menu button
 const menuBtns=document.querySelectorAll(".menu-btn");
 const menu=document.querySelector("#menu");
